@@ -1,0 +1,17 @@
+{
+    "name": "jinjie/structureddata",
+    "description": "StructuredData for SilverStripe 4",
+    "type": "silverstripe-vendormodule",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Kong Jin Jie",
+            "email": "jinjie@swiftdev.sg"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "silverstripe/cms": "^4",
+        "spatie/schema-org": "^2"
+    }
+}
