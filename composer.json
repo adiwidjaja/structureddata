@@ -12,6 +12,6 @@
     "minimum-stability": "dev",
     "require": {
         "silverstripe/cms": "^4",
-        "spatie/schema-org": "^2"
+        "spatie/schema-org": "^3"
     }
 }
