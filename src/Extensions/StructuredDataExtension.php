@@ -17,7 +17,7 @@ class StructuredDataExtension extends DataExtension
 {
     public function StructuredData()
     {
-        if (method_exists($this->owner, 'getStructuredSchemaData') &&
+        if ($this->getOwner()->hasMethod('getStructuredSchemaData') &&
             $schema = $this->owner->getStructuredSchemaData()
         ) {
             if (! $schema instanceof BaseType) {
